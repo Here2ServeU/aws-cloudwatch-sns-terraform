@@ -16,7 +16,7 @@ This repository contains Terraform configurations for provisioning CloudWatch Lo
    
    -> cd aws-autoscaling-sns-terraform
 
-2. ***
+2. **Initialize the Terraform Configuration**
 
     -> terraform init
 
