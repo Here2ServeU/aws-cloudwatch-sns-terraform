@@ -36,6 +36,15 @@ This repository contains Terraform configurations for provisioning CloudWatch Lo
 
     -> terraform destroy
 
+## Security
+- Ensure to replace the values with the desired ones for the terraform.tfvars file. 
+
+- The best practice is to input these variables on your local machine rather than store them on GitHub. 
+
+- You could use this command, terraform apply var-file="terraform.tfvars"
+
+- Use the "export TF_VAR" command to input all the variables. E.g. export TF_VAR_region="us-east-1"
+
 ## Troubleshooting
 If you encounter any issues, please check the following:
 
